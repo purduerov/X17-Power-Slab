@@ -445,6 +445,16 @@
 		)
 		(uuid "f4942cd3-99ad-47d5-afdc-9a7a8baaecaa")
 	)
+	(text "Meant for adjusting output voltage, \nwill adjust value later."
+		(exclude_from_sim no)
+		(at 123.952 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "676474f4-0fe1-4033-bd9d-07d810d2a775")
+	)
 	(text "48V to 5V DCDC Converter\n"
 		(exclude_from_sim no)
 		(at 121.412 60.96 0)
