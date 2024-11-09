@@ -594,6 +594,10 @@
     [
       "a173c630-d818-4bdf-96f3-617172bdeb8e",
       "24V_output_circuit"
+    ],
+    [
+      "1a3930c4-0704-4e7c-b8c1-2b8d55f92087",
+      "STM32"
     ]
   ],
   "text_variables": {}

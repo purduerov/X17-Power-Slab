@@ -497,7 +497,7 @@
 		)
 	)
 	(global_label "USART1_RX"
-		(shape input)
+		(shape output)
 		(at 234.95 43.18 0)
 		(fields_autoplaced yes)
 		(effects
