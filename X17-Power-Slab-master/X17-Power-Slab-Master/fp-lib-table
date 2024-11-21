@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/Tether_connection/footprints.pretty")(options "")(descr ""))
+  (lib (name "KiCad Projects ROV")(type "KiCad")(uri "G:/KiCad Projects ROV")(options "")(descr ""))
+  (lib (name "612_STMconn")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/612_STMconn")(options "")(descr ""))
+)

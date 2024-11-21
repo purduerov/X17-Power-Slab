@@ -1399,7 +1399,7 @@
 			)
 		)
 	)
-	(global_label "A"
+	(global_label "A+"
 		(shape output)
 		(at 196.85 68.58 0)
 		(fields_autoplaced yes)
@@ -1411,7 +1411,7 @@
 		)
 		(uuid "2bc5ffcc-0296-43b3-b8ea-cb196a27f4fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.9238 68.58 0)
+			(at 202.4962 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,29 +1443,7 @@
 			)
 		)
 	)
-	(global_label "B"
-		(shape output)
-		(at 185.42 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e4ffc9f-4442-4669-9ca4-f0910eb24419")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.6752 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B"
+	(global_label "A-"
 		(shape output)
 		(at 196.85 60.96 0)
 		(fields_autoplaced yes)
@@ -1477,7 +1455,7 @@
 		)
 		(uuid "905d2bfd-daf9-49ae-bbd9-bd5f052179bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1052 60.96 0)
+			(at 202.4962 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,9 +1487,9 @@
 			)
 		)
 	)
-	(global_label "A"
+	(global_label "A+"
 		(shape output)
-		(at 185.42 83.82 0)
+		(at 185.42 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1519,9 +1497,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a95d0785-ff97-4586-b12f-5c04a455af4d")
+		(uuid "a890d8e6-84de-4c1b-8168-a512409ac0f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.4938 83.82 0)
+			(at 191.0662 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,6 +1549,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A-"
+		(shape output)
+		(at 185.42 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c100e0eb-edcb-4dd2-a5d5-42c87ebfd8b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.0662 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
