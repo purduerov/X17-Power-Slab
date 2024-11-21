@@ -1,4 +1,25 @@
-23855208249192569
+23863866947936511
+48Vto5V
+PKU5000e
+
+
+0
+6
+6
+612_STMconn
+61201021621
+<b>WR-BHD</B> <BR>2.54 mm Male Box Header, 10 Pins
+
+0
+10
+10
+AZ1117_4pin
+SOT230P700X185-4N
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +34,13 @@ audio belton reverb
 0
 7
 7
+Backplane Connector
+SAMTEC_ET60S-D04-3-08-D04-X-R1-S
+
+
+0
+104
+104
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -88843,6 +88871,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+Reverse Voltage Protection
+TO254P1524X483-4
+
+
+0
+3
+3
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html

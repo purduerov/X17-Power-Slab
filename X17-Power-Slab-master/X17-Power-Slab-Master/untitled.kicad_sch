@@ -599,7 +599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.286 105.156 90)
 			(effects
 				(font
@@ -667,7 +667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.396 98.806 90)
 			(effects
 				(font
@@ -735,13 +735,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "48Vto5V:PKU5000e"
 			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""

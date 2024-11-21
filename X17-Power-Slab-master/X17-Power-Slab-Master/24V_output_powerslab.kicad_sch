@@ -2909,7 +2909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 252.476 100.584 90)
 			(effects
 				(font
@@ -2979,7 +2979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 252.476 118.364 90)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 196.596 74.676 90)
 			(effects
 				(font
@@ -3477,7 +3477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 89.916 70.104 90)
 			(effects
 				(font
@@ -3712,7 +3712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MUY08A"
+		(property "Footprint" ""
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -3971,7 +3971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.266 54.356 90)
 			(effects
 				(font
