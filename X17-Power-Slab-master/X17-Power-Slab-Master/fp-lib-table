@@ -7,5 +7,6 @@
   (lib (name "AZ1117_4pin")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/AZ1117_4pin")(options "")(descr ""))
   (lib (name "Backplane Connector")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/Backplane Connector")(options "")(descr ""))
   (lib (name "Reverse Voltage Protection")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/Reverse Voltage Protection")(options "")(descr ""))
-  (lib (name "STM Switch")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/STM Switch")(options "")(descr ""))
+  (lib (name "ET60T-D04-3-08-D04-X-R1-S")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/ET60T-D04-3-08-D04-X-R1-S")(options "")(descr ""))
+  (lib (name "STM switch")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/STM switch")(options "")(descr ""))
 )

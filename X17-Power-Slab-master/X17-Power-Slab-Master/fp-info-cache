@@ -1,4 +1,4 @@
-23863866947936511
+23867331527632267
 48Vto5V
 PKU5000e
 
@@ -56734,6 +56734,13 @@ ES48SC12030
 0
 6
 6
+ET60T-D04-3-08-D04-X-R1-S
+SAMTEC_ET60T-D04-3-08-D04-X-R1-S
+
+
+0
+104
+104
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -89032,6 +89039,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM switch
+SW4_1825910-B_TEC
+
+1825910-6 
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
