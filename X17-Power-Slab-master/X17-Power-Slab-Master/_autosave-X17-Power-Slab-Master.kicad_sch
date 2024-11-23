@@ -6960,7 +6960,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bdfdae5a-9acb-4759-8fe8-e68c48f1ce0d")
-		(property "Sheetname" "12Vto5V_BuckConverter"
+		(property "Sheetname" "48Vto5V"
 			(at 245.11 144.0684 0)
 			(effects
 				(font
