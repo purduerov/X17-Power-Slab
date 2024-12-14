@@ -1,4 +1,4 @@
-23867331527632267
+23870797935488648
 48Vto5V
 PKU5000e
 
@@ -34,6 +34,13 @@ audio belton reverb
 0
 7
 7
+BMR491_MadeByMe
+BMR4910203851
+
+
+0
+15
+15
 Backplane Connector
 SAMTEC_ET60S-D04-3-08-D04-X-R1-S
 
@@ -88880,6 +88887,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 2
 Reverse Voltage Protection
 TO254P1524X483-4
+
+
+0
+3
+3
+Reverse Voltage Protection
+TRANS_TSM340N06CPROG
 
 
 0
