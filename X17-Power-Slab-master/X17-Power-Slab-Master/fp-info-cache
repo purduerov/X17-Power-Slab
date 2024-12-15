@@ -1,4 +1,29 @@
+<<<<<<< Updated upstream
 23741809085250438
+=======
+23870797935491270
+48Vto5V
+PKU5000e
+
+
+0
+6
+6
+612_STMconn
+61201021621
+<b>WR-BHD</B> <BR>2.54 mm Male Box Header, 10 Pins
+
+0
+10
+10
+AZ1117_4pin
+SOT230P700X185-4N
+
+
+0
+4
+4
+>>>>>>> Stashed changes
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
