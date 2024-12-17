@@ -183,6 +183,7 @@
         0.5,
         0.508,
         0.762,
+        3.556,
         5.08
       ],
       "tuning_pattern_settings": {
@@ -481,6 +482,10 @@
       {
         "netclass": "Default",
         "pattern": "12V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "48V_GND"
       }
     ]
   },
