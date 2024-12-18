@@ -663,7 +663,7 @@
 			)
 		)
 	)
-	(global_label "5V_GND"
+	(global_label "12V_5V_GND"
 		(shape output)
 		(at 140.97 87.63 0)
 		(fields_autoplaced yes)
@@ -675,7 +675,7 @@
 		)
 		(uuid "5c79fcd1-0ed4-4dd8-b711-991d3d11166e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.0914 87.63 0)
+			(at 155.5666 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
