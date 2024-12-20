@@ -4275,7 +4275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STM switch:SW4_1825910-B_TEC"
+		(property "Footprint" "SW4_1825910-B_TEC"
 			(at 81.28 58.42 0)
 			(effects
 				(font

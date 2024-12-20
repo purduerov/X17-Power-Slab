@@ -1038,7 +1038,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 12.7 5.08 180)
 					(length 5.08)
 					(name "20"
@@ -1056,7 +1056,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 12.7 2.54 180)
 					(length 5.08)
 					(name "21"
@@ -3325,6 +3325,10 @@
 		(uuid "6e62902d-2e2d-46ca-8acf-070aa87763da")
 	)
 	(no_connect
+		(at 67.31 187.96)
+		(uuid "710d4293-0522-4382-867b-fe008c3d9bf2")
+	)
+	(no_connect
 		(at 240.03 38.1)
 		(uuid "80991fd4-2bc0-4dcd-b4cb-31b814d62dab")
 	)
@@ -4568,28 +4572,6 @@
 			)
 		)
 	)
-	(global_label "12V_5V_GND"
-		(shape input)
-		(at 67.31 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c79575f-18af-456f-a5b4-db3e32c46d21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9066 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 73.66 74.93 270)
@@ -5056,7 +5038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ET60T-D04-3-08-D04-X-R1-S:SAMTEC_ET60T-D04-3-08-D04-X-R1-S"
+		(property "Footprint" "ET60S-D04-3-08-D04-X-R1-S:SAMTEC_ET60S-D04-3-08-D04-X-R1-S"
 			(at 251.46 27.94 0)
 			(effects
 				(font
@@ -5591,7 +5573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CON6_P5MM_VER_TERM-BLK_TYC"
+		(property "Footprint" "CON6_P5MM_VER_TERM-BLK_TYC"
 			(at 161.29 55.626 0)
 			(effects
 				(font
@@ -5827,7 +5809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Decoupling Capacitor for the Brick"
+		(property "Description" "Unpolarized capacitor"
 			(at 29.21 58.42 0)
 			(effects
 				(font
@@ -5946,7 +5928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 158.115 149.86 0)
 			(effects
 				(font
@@ -5955,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PZUXBA_SER.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
 			(at 153.67 149.86 0)
 			(effects
 				(font
@@ -6034,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Decoupling Capacitor for the Brick"
+		(property "Description" "Unpolarized capacitor"
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -6104,7 +6086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Decoupling Capacitor for the Brick"
+		(property "Description" "Unpolarized capacitor"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -6467,7 +6449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AZ1117_4pin:SOT230P700X185-4N"
+		(property "Footprint" "AZ1117IH-3.3TRG1:SOT230P700X185-4N"
 			(at 46.99 182.88 0)
 			(effects
 				(font
