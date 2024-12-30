@@ -10,4 +10,5 @@
   (lib (name "ET60T-D04-3-08-D04-X-R1-S")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/ET60T-D04-3-08-D04-X-R1-S")(options "")(descr ""))
   (lib (name "STM switch")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/STM switch")(options "")(descr ""))
   (lib (name "Brick Decoupling Capacitors")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/Brick Decoupling Capacitors")(options "")(descr ""))
+  (lib (name "Red LED")(type "KiCad")(uri "C:/Users/super/OneDrive/Documents/GitHub/X17-Power-Slab/X17-Power-Slab-master/X17-Power-Slab-Master")(options "")(descr ""))
 )
