@@ -1,4 +1,4 @@
-23743544662589863
+23748752130833437
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54648,6 +54648,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DataConv Connector
+Data Conversion two 1x6
+
+
+0
+12
+12
+DataConv Connector
+WL-SMCW_0805
+<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -86673,6 +86687,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+Red LED
+Data Conversion two 1x6
+
+
+0
+12
+12
 Red LED
 WL-SMCW_0805
 <B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)

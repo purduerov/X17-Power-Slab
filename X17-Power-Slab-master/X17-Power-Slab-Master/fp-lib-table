@@ -11,4 +11,5 @@
   (lib (name "STM switch")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/STM switch")(options "")(descr ""))
   (lib (name "Brick Decoupling Capacitors")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/Brick Decoupling Capacitors")(options "")(descr ""))
   (lib (name "Red LED")(type "KiCad")(uri "C:/Users/super/OneDrive/Documents/GitHub/X17-Power-Slab/X17-Power-Slab-master/X17-Power-Slab-Master")(options "")(descr ""))
+  (lib (name "DataConv Connector")(type "KiCad")(uri "C:/Users/super/OneDrive/Documents/GitHub/X17-Power-Slab/X17-Power-Slab-master/X17-Power-Slab-Master")(options "")(descr ""))
 )
