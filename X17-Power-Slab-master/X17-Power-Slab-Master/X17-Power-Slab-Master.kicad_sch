@@ -3546,16 +3546,8 @@
 		(uuid "3758003c-5cc6-4b77-a5cc-da673bafefa6")
 	)
 	(no_connect
-		(at 265.43 66.04)
-		(uuid "3c08dc39-ec3b-4eae-90c6-cdf10eac6076")
-	)
-	(no_connect
-		(at 240.03 76.2)
-		(uuid "48c63b0d-9fe0-42c0-b69a-3f9d48ef1624")
-	)
-	(no_connect
-		(at 240.03 78.74)
-		(uuid "62b8f850-cc76-471d-a3c7-71677a4d9d77")
+		(at 265.43 38.1)
+		(uuid "5bde1814-25a0-4a99-84ab-e5ad64de12be")
 	)
 	(no_connect
 		(at 240.03 38.1)
@@ -3570,8 +3562,8 @@
 		(uuid "9a9ace46-77eb-46c0-b7aa-b082e19ea95d")
 	)
 	(no_connect
-		(at 265.43 53.34)
-		(uuid "9b0bebd4-bfb3-4b20-9457-4473c25f35bb")
+		(at 240.03 68.58)
+		(uuid "acfb9eeb-cb9d-4239-8d07-9a76f4a30935")
 	)
 	(no_connect
 		(at 240.03 60.96)
@@ -3580,10 +3572,6 @@
 	(no_connect
 		(at 265.43 43.18)
 		(uuid "becf189f-77be-4810-b16e-a689142ced64")
-	)
-	(no_connect
-		(at 240.03 88.9)
-		(uuid "c60de451-b6ef-4f1e-b6fb-230aa033203c")
 	)
 	(no_connect
 		(at 240.03 58.42)
@@ -4459,22 +4447,22 @@
 	)
 	(global_label "12V_5V_GND"
 		(shape input)
-		(at 265.43 38.1 0)
+		(at 240.03 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "0afabc3d-5a58-4723-90af-d3de1450cfcc")
+		(uuid "1d09f713-e088-4f20-9a78-b443a2196b73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.0266 38.1 0)
+			(at 225.4334 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4723,7 +4711,7 @@
 	)
 	(global_label "48V_GND"
 		(shape input)
-		(at 240.03 68.58 180)
+		(at 240.03 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4731,9 +4719,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7668c52d-0a9e-4605-8555-7811ef1078bf")
+		(uuid "7b5ea1fe-10dc-499d-aac3-7b5e5d29cd68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6991 68.58 0)
+			(at 228.6991 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,6 +4815,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 265.43 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91ccf897-9ea4-4aca-a3d6-a8ccd2cc014b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.7133 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "48V_GND"
+		(shape input)
+		(at 265.43 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93e7cabc-68a9-4193-8239-82856c058045")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.7609 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5315,6 +5347,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 240.03 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdebb9be-4fe5-49bc-bc92-df340028af59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.7467 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Backplane Connectors ROV:ET60S-D04-3-08-D04-X-R1-S")
 		(at 252.73 63.5 0)
@@ -5341,7 +5395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ET60S-D04-3-08-D04-X-R1-S:SAMTEC_ET60S-D04-3-08-D04-X-R1-S"
+		(property "Footprint" "ET60T-D04-3-08-D04-S-R1-S:SAMTEC_ET60T-D04-3-08-D04-S-R1-S"
 			(at 251.46 27.94 0)
 			(effects
 				(font

@@ -1,0 +1,12 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"TP5,TP6,TP15,TP1,TP2,TP3,TP4,TP14";"TestPoint_Pad_D4.0mm";8;"TestPoint";;;
+2;"J2";"SAMTEC_ET60T-D04-3-08-D04-X-R1-S";1;"ET60T-D04-3-08-D04-X-R1-S";;;
+3;"R18,R27,R10";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"10k";;;
+4;"R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"100k";;;
+5;"C5,C6,C7";"CAP_50TPV_10x10.5_RBY";3;"C";;;
+6;"J3";"CON6_P5MM_VER_TERM-BLK_TYC";1;"796636-6";;;
+7;"D1";"D_1210_3225Metric_Pad1.42x2.65mm_HandSolder";1;"PZU15B3A,115";;;
+8;"Q2";"TRANS_TSM340N06CPROG";1;"TSM340N06CP ROG";;;
+9;"U5";"PKU5000e";1;"~";;;
+10;"H3,H4,H1,H1,H1,H3,H4,H1";"6-32-HOLE";8;"6-32-HOLE";;;
+11;"U8";"BMR4910203851";1;"~";;;

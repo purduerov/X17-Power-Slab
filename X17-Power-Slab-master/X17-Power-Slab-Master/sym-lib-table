@@ -3,4 +3,5 @@
   (lib (name "2024-11-21_21-35-54")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/STM Switch/2024-11-21_21-35-54.kicad_sym")(options "")(descr ""))
   (lib (name "IRF1018ESTRLPBF")(type "KiCad")(uri "G:/KiCad Projects ROV/Downloaded Models/Reverse Voltage Protection/IRF1018ESTRLPBF.kicad_sym")(options "")(descr ""))
   (lib (name "Red LED")(type "KiCad")(uri "${KIPRJMOD}/WL-SMCW_0805.kicad_sym")(options "")(descr ""))
+  (lib (name "ET60S-D04-3-08-D04-X-R1-S")(type "KiCad")(uri "${KIPRJMOD}/libraries/ET60S-D04-3-08-D04-X-R1-S/ET60S-D04-3-08-D04-X-R1-S.kicad_sym")(options "")(descr ""))
 )

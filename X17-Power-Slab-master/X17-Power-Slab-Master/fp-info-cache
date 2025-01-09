@@ -1,4 +1,4 @@
-23748752130833437
+23743545534684132
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54648,20 +54648,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DataConv Connector
-Data Conversion two 1x6
-
-
-0
-12
-12
-DataConv Connector
-WL-SMCW_0805
-<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)
-
-0
-2
-2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56664,6 +56650,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ET60T-D04-3-08-D04-S-R1-S
+SAMTEC_ET60T-D04-3-08-D04-S-R1-S
+
+
+0
+104
+104
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -86687,20 +86680,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-Red LED
-Data Conversion two 1x6
-
-
-0
-12
-12
-Red LED
-WL-SMCW_0805
-<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)
-
-0
-2
-2
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
