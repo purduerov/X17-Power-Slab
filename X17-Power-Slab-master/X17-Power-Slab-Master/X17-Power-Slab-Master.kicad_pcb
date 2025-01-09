@@ -123,13 +123,13 @@
 		(descr "Diode SMB (DO-214AA) Handsoldering")
 		(tags "Diode SMB (DO-214AA) Handsoldering")
 		(property "Reference" "D5"
-			(at 0 -3 0)
+			(at -5.96 2.67 0)
 			(layer "F.SilkS")
 			(uuid "2c5e7cf2-f3da-475d-8d45-518a9d6fce69")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -414,7 +414,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -529,7 +529,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -740,7 +740,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -2227,7 +2227,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -2342,7 +2342,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -2449,14 +2449,14 @@
 		(uuid "43241bb2-04d1-4ded-a351-3cb78dd2d31e")
 		(at 118.085 97.315 -90)
 		(property "Reference" "J1"
-			(at 0 -0.5 -90)
+			(at -1.965 -3.065 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "19911901-55dc-4744-9faf-97986e104e41")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -2516,6 +2516,16 @@
 		(sheetname "Root")
 		(sheetfile "X17-Power-Slab-Master.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start 19.275 5.995)
+			(end -18.15 5.995)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fd895c96-3039-4d5b-ba8f-4ac1dcb87999")
+		)
 		(fp_line
 			(start -19.48 5.525)
 			(end -16.82 5.525)
@@ -2636,16 +2646,15 @@
 			(layer "F.SilkS")
 			(uuid "585b0942-62dc-4538-af54-af3606a4adaf")
 		)
-		(fp_rect
+		(fp_line
 			(start -18.15 -10.25)
-			(end 19.275 5.925)
+			(end 19.275 -10.25)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
 			(layer "F.SilkS")
-			(uuid "79c61b55-9e92-4fa1-8139-978b24cfd744")
+			(uuid "714bcf18-1ab2-4398-b7fd-ca4045015d0f")
 		)
 		(fp_line
 			(start -19.95 5.995)
@@ -2828,7 +2837,7 @@
 			(uuid "6ba1aad5-114f-4968-86b6-6e53ce76891e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -18.15 -2.155 360)
+			(at -18.15 -2.155 0)
 			(layer "F.Fab")
 			(uuid "72b41e38-2776-4961-aefa-609fd73e4e39")
 			(effects
@@ -2839,7 +2848,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 15.575 -4.895 360)
+			(at 15.575 -4.895 0)
 			(layer "F.Fab")
 			(uuid "85d2a5c0-96c5-4453-90b7-59c7330536e5")
 			(effects
@@ -3000,13 +3009,13 @@
 		(at 154 48 180)
 		(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)")
 		(property "Reference" "D2"
-			(at 0 -1.6064 0)
+			(at 0.04 -1.84 0)
 			(layer "F.SilkS")
 			(uuid "321f69f1-5226-418e-b6c4-f2b25209be5a")
 			(effects
 				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3194,24 +3203,13 @@
 			(uuid "08ef6fd5-eca0-4415-8889-c771fe4a16c8")
 		)
 		(fp_text user "+"
-			(at 1.9 0.3 0)
+			(at 2.24 -1.39 0)
 			(layer "F.SilkS")
 			(uuid "5f0c51cc-0422-45bf-9325-f0405ad3e2d6")
 			(effects
 				(font
-					(size 0.48 0.48)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "+"
-			(at 1.9 0.3 0)
-			(layer "F.Fab")
-			(uuid "09617c44-9ce9-4ed1-929a-c441a3ea6277")
-			(effects
-				(font
-					(size 0.48 0.48)
-					(thickness 0.15)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3247,7 +3245,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3460,7 +3458,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3673,7 +3671,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3886,7 +3884,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -4099,7 +4097,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -4214,7 +4212,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -4649,7 +4647,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -5084,7 +5082,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -5321,84 +5319,12 @@
 		(fp_text user "6"
 			(at 27.432 0 0)
 			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "65f04006-7656-4393-aac4-93ce7b795401")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "6"
-			(at 27.432 0 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "a06f3c1b-0cce-4f5e-bff5-78cd425950e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -2.032 0 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "ea023e8e-bee2-40f2-9221-f9b5e39a5ec8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -2.032 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "06204005-122d-4c1e-bfd2-70608493d6c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "6"
-			(at 27.432 0 0)
-			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "243c74cb-df8f-45d5-9503-c12fbc85b22c")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "6"
-			(at 27.432 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "6352fe5a-2c5a-4018-8c5b-5ab4dda5a79d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -2.032 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "92fa52c2-977d-4cd9-8c2a-6d83e414a1e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -5542,7 +5468,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -5657,7 +5583,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -5946,13 +5872,13 @@
 		(at 78.95 116 180)
 		(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)")
 		(property "Reference" "D4"
-			(at 0 -1.6064 0)
+			(at -0.02 -1.84 0)
 			(layer "F.SilkS")
 			(uuid "9a072821-3137-4519-8f3a-623a35986792")
 			(effects
 				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -6140,24 +6066,13 @@
 			(uuid "7579f541-d147-4d37-8def-1d3631ae4f8b")
 		)
 		(fp_text user "+"
-			(at 1.9 0.3 0)
+			(at 2 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "71b3433c-1dce-4bb0-b1e2-1eaf00d4ff3a")
 			(effects
 				(font
-					(size 0.48 0.48)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "+"
-			(at 1.9 0.3 0)
-			(layer "F.Fab")
-			(uuid "28d2b6e7-52c8-4077-b7c3-39a378654271")
-			(effects
-				(font
-					(size 0.48 0.48)
-					(thickness 0.15)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -6193,7 +6108,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -6301,13 +6216,13 @@
 		(at 152 125 180)
 		(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)")
 		(property "Reference" "D3"
-			(at 0 -2 180)
+			(at -0.66 2.24 180)
 			(layer "F.SilkS")
 			(uuid "0094c5a5-d960-40dc-b41d-fd6acf649aef")
 			(effects
 				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -6495,24 +6410,13 @@
 			(uuid "680f9f70-aa96-4965-9e73-29d592c9b6e4")
 		)
 		(fp_text user "+"
-			(at 1.9 0.3 0)
-			(layer "F.SilkS")
-			(uuid "15f7e868-f0e9-432b-9619-d4e071cfd9f4")
-			(effects
-				(font
-					(size 0.48 0.48)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "+"
-			(at 1.9 0.3 0)
+			(at 1.64 2.14 0)
 			(layer "F.Fab")
 			(uuid "fe8d92ba-a7b6-4ca2-a426-eaa02170dcbd")
 			(effects
 				(font
-					(size 0.48 0.48)
-					(thickness 0.15)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -6548,7 +6452,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -6981,7 +6885,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -7379,7 +7283,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.1524)
 				)
 				(justify mirror)
 			)
@@ -8601,14 +8505,14 @@
 		(uuid "e524d8db-eb09-49e1-9411-d1517486d43a")
 		(at 148.5 90.75 -90)
 		(property "Reference" "U8"
-			(at 0 1.3471 90)
+			(at 2.39 -1.59 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "828b740f-3e7a-408e-8224-b81a6a8fe231")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.1524)
 				)
 				(justify mirror)
 			)
@@ -9161,6 +9065,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "dc746988-e85e-48eb-a0ea-7f8766d12344")
+	)
+	(gr_text "1"
+		(at 83.41 50.02 0)
+		(layer "F.SilkS")
+		(uuid "92fa52c2-977d-4cd9-8c2a-6d83e414a1e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
 	)
 	(segment
 		(start 92.0947 140.6047)
