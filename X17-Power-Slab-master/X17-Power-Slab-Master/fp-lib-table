@@ -12,4 +12,5 @@
   (lib (name "Red LED")(type "KiCad")(uri "C:/Users/super/OneDrive/Documents/GitHub/X17-Power-Slab/X17-Power-Slab-master/X17-Power-Slab-Master")(options "")(descr ""))
   (lib (name "DataConv Connector")(type "KiCad")(uri "C:/Users/super/OneDrive/Documents/GitHub/X17-Power-Slab/X17-Power-Slab-master/X17-Power-Slab-Master")(options "")(descr ""))
   (lib (name "ET60T-D04-3-08-D04-S-R1-S")(type "KiCad")(uri "${KIPRJMOD}/libraries/ET60T-D04-3-08-D04-S-R1-S")(options "")(descr ""))
+  (lib (name "0PTF0078P Fuse")(type "KiCad")(uri "${KIPRJMOD}/libraries/0PTF0078P/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
