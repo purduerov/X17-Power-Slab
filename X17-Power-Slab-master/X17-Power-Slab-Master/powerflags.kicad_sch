@@ -1,18 +1,14 @@
 (kicad_sch
-	(version 20250114)
+	(version 20231120)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(uuid "6a835513-40e4-4971-b677-2bc88f8c0e07")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -80,10 +76,10 @@
 			(symbol "D_TVS_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -104,10 +100,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -153,12 +149,9 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
 				(offset 0)
 			)
@@ -229,31 +222,19 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -277,7 +258,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -326,7 +319,6 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "Red LED:WL-SMCW_0805"
 			(pin_names
@@ -384,19 +376,7 @@
 			(symbol "WL-SMCW_0805_0_0"
 				(polyline
 					(pts
-						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
+						(xy 0 -1.27) (xy 0 0)
 					)
 					(stroke
 						(width 0.254)
@@ -408,7 +388,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 2.54 1.27)
+						(xy 0 0) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -432,7 +412,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
+						(xy 0 0) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -440,18 +420,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -480,18 +448,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 2.54 -1.27) (xy 0 0)
 					)
 					(stroke
@@ -512,6 +468,42 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(text "+"
@@ -560,17 +552,12 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -661,17 +648,12 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -762,48 +744,7 @@
 					)
 				)
 			)
-			(embedded_fonts no)
 		)
-	)
-	(text "General Labels\n"
-		(exclude_from_sim no)
-		(at 221.742 20.066 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "173b872e-d761-4f6b-a874-aff27e5537ee")
-	)
-	(text "Brick Labels"
-		(exclude_from_sim no)
-		(at 51.562 41.148 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "7c6af222-83c4-4e65-80e9-c3afc8cf8b46")
-	)
-	(text "STM32 Labels"
-		(exclude_from_sim no)
-		(at 131.826 42.164 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "7f296dda-6d49-42fb-90f6-cdc60faa7002")
-	)
-	(text "Power flags with same name are same all around\neven if it is input or output."
-		(exclude_from_sim no)
-		(at 57.404 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8940567a-ad2e-4a7f-9a32-34e7858acd67")
 	)
 	(wire
 		(pts
@@ -844,6 +785,46 @@
 			(type default)
 		)
 		(uuid "9b0d61e8-d0cc-4623-869d-84229c6278c6")
+	)
+	(text "General Labels\n"
+		(exclude_from_sim no)
+		(at 221.742 20.066 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "173b872e-d761-4f6b-a874-aff27e5537ee")
+	)
+	(text "Brick Labels"
+		(exclude_from_sim no)
+		(at 51.562 41.148 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "7c6af222-83c4-4e65-80e9-c3afc8cf8b46")
+	)
+	(text "STM32 Labels"
+		(exclude_from_sim no)
+		(at 131.826 42.164 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "7f296dda-6d49-42fb-90f6-cdc60faa7002")
+	)
+	(text "Power flags with same name are same all around\neven if it is input or output."
+		(exclude_from_sim no)
+		(at 57.404 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8940567a-ad2e-4a7f-9a32-34e7858acd67")
 	)
 	(global_label "48V"
 		(shape input)
